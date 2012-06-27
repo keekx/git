@@ -15,10 +15,10 @@
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="602.818149184714" width="307.31946601307436" x="405.75696601307345" y="63.789720072313116"/>
+          <y:Geometry height="794.9089105970208" width="541.9172526041666" x="-186.33268242442594" y="-22.885025714993617"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="dotted" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="22" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="29.91015625" modelName="internal" modelPosition="b" textColor="#000000" visible="true" width="134.8505859375" x="86.23444003778718" y="568.907992934714">git stash list</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="22" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="29.91015625" modelName="internal" modelPosition="b" textColor="#000000" visible="true" width="300.9677734375" x="120.4747395833333" y="760.9987543470208">git status - branch "master"</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -26,10 +26,10 @@
     <node id="n1">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="950.4303949720206" width="611.9930339869259" x="-372.74303398692587" y="-283.8225257149935"/>
+          <y:Geometry height="794.9089105970208" width="541.9172526041666" x="-728.2499350285925" y="-22.885025714993617"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="dotted" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="22" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="29.91015625" modelName="internal" modelPosition="b" textColor="#000000" visible="true" width="103.9560546875" x="254.01848964971293" y="916.5202387220206">git status</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="22" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="29.91015625" modelName="internal" modelPosition="b" textColor="#000000" visible="true" width="351.57421875" x="95.1715169270833" y="760.9987543470208">git status - branch "coolFeature"</y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -39,14 +39,14 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="575.6984384800182" width="1120.5700519505735" x="-390.49361992442584" y="34.198958660006355"/>
+              <y:Geometry height="885.7294283900246" width="1525.3063804738526" x="-757.3063804738522" y="-89.96705696499362"/>
               <y:Fill color="#CAECFF84" transparent="false"/>
               <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="1120.5700519505735" x="0.0" y="0.0">local environment / working directory</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="1525.3063804738526" x="0.0" y="0.0">local environment / someRepo</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="17" leftF="16.81308593749992" right="0" rightF="1.1368683772161603E-13" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="31" bottomF="30.895964195012084" left="0" leftF="0.0" right="46" rightF="45.93528672385264" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="80.0" width="100.0" x="-50.0" y="-30.0"/>
@@ -65,26 +65,106 @@
         <node id="n2::n0">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
-              <y:Geometry height="66.00000000000006" width="139.4375000000001" x="-358.68053398692587" y="70.86497428500635"/>
-              <y:Fill color="#333399" transparent="false"/>
+              <y:Geometry height="320.7299485700122" width="541.9172526041666" x="-186.33268242442594" y="-11.635025714993503"/>
+              <y:Fill color="#339966" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="124.861328125" x="7.288085937500057" y="16.86718750000003">local repository (.git)
-branch: master</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="162.1796875" x="189.8687825520833" y="4.0">local branch: master</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n2::n1">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
-              <y:Geometry height="66.00000000000006" width="114.43750000000011" x="-358.68053398692587" y="223.54244857001248"/>
-              <y:Fill color="#333399" transparent="false"/>
+              <y:Geometry height="320.7299485700122" width="514.4172526041666" x="-717.1602865910925" y="-12.487662311241081"/>
+              <y:Fill color="#339966" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="77.7578125" x="18.339843750000057" y="16.867187500000057">Index /
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="198.984375" x="157.7164388020833" y="4.0">local branch: coolFeature</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n2::n2" yfiles.foldertype="group">
+          <data key="d4"/>
+          <data key="d6">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="375.8691406249999" width="1111.0891360077067" x="-742.3063804738522" y="-53.30104133999362"/>
+                  <y:Fill color="#CAECFF84" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="1111.0891360077067" x="0.0" y="0.0">.git</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="217" bottomF="216.70312499999994" left="182" leftF="181.79824232025953" right="141" rightF="141.22110202078056" top="55" topF="54.647363403752024"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="50.0" width="50.0" x="-734.4999999999998" y="-173.10377571499356"/>
+                  <y:Fill color="#CAECFF84" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="50.0" x="0.0" y="0.0">2</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n2::n2:">
+            <node id="n2::n2::n0">
+              <data key="d6">
+                <y:GenericNode configuration="ShinyPlateNode2">
+                  <y:Geometry height="26.000000000000114" width="199.4375" x="12.81946601307385" y="64.86497428500621"/>
+                  <y:Fill color="#333399" transparent="false"/>
+                  <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="190.0234375" x="4.70703125" y="1.5781250000000568">~2 OR ^^  commit - def</y:NodeLabel>
+                </y:GenericNode>
+              </data>
+            </node>
+            <node id="n2::n2::n1">
+              <data key="d6">
+                <y:GenericNode configuration="ShinyPlateNode2">
+                  <y:Geometry height="26.000000000000114" width="199.4375" x="-545.5081381535927" y="64.01233768875852"/>
+                  <y:Fill color="#333399" transparent="false"/>
+                  <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="195.6953125" x="1.87109375" y="1.5781250000000568">~2 OR ^^  commit - wvu</y:NodeLabel>
+                </y:GenericNode>
+              </data>
+            </node>
+            <node id="n2::n2::n2">
+              <data key="d6">
+                <y:GenericNode configuration="ShinyPlateNode2">
+                  <y:Geometry height="26.000000000000114" width="199.4375" x="12.81946601307385" y="38.8649742850061"/>
+                  <y:Fill color="#333399" transparent="false"/>
+                  <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="200.046875" x="-0.3046875" y="1.5781250000000568">~3 OR ^^^  commit - ghj</y:NodeLabel>
+                </y:GenericNode>
+              </data>
+            </node>
+            <node id="n2::n2::n3">
+              <data key="d6">
+                <y:GenericNode configuration="ShinyPlateNode2">
+                  <y:Geometry height="26.000000000000114" width="199.4375" x="-545.5081381535927" y="38.01233768875841"/>
+                  <y:Fill color="#333399" transparent="false"/>
+                  <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="195.9609375" x="1.73828125" y="1.5781250000000568">~3 OR ^^^  commit - tsr</y:NodeLabel>
+                </y:GenericNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="n2::n3">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNode2">
+              <y:Geometry height="72.60494857001237" width="403.1875000000001" x="-177.1805339869262" y="220.2399742850063"/>
+              <y:Fill color="#666699" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="41.6875" modelName="internal" modelPosition="l" textColor="#FFFFFF" visible="true" width="102.34375" x="4.0" y="15.458724285006184">Index /
 Staging Area</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n2::n2">
+        <node id="n2::n4">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
               <y:Geometry height="26.000000000000114" width="209.43750000000003" x="7.819466013073907" y="243.54244857001243"/>
@@ -94,47 +174,47 @@ Staging Area</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n2::n3">
-          <data key="d6">
-            <y:GenericNode configuration="ShinyPlateNode2">
-              <y:Geometry height="26.000000000000114" width="243.43750000000003" x="-9.18053398692615" y="90.86497428500633"/>
-              <y:Fill color="#333399" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="227.796875" x="7.820312500000014" y="1.5781250000000568">committed change(s) - SHA1</y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n2::n4">
-          <data key="d6">
-            <y:GenericNode configuration="ShinyPlateNode2">
-              <y:Geometry height="66.00000000000006" width="114.43750000000011" x="-358.6805339869259" y="528.8973971400246"/>
-              <y:Fill color="#333399" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="106.5390625" x="3.949218750000057" y="23.93359375">working directory</y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
         <node id="n2::n5">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
-              <y:Geometry height="26.000000000000114" width="189.93750000000009" x="17.569466013073907" y="548.8973971400245"/>
+              <y:Geometry height="26.000000000000114" width="199.4375" x="12.81946601307385" y="90.86497428500633"/>
               <y:Fill color="#333399" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="92.7578125" x="48.58984375000004" y="1.5781250000001137">no changes</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="177.078125" x="11.1796875" y="1.5781250000000568">~1 OR ^ commit - abc</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n2::n6">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
-              <y:Geometry height="26.000000000000114" width="189.93750000000009" x="17.569466013073907" y="396.2199228550185"/>
+              <y:Geometry height="66.00000000000006" width="114.43750000000011" x="-242.5701824244258" y="683.8664072300188"/>
               <y:Fill color="#333399" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="137.296875" x="26.320312500000043" y="1.5781250000000568">&gt; local change(s)</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="106.5390625" x="3.949218750000057" y="23.93359375">working directory</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n2::n7">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNode2">
+              <y:Geometry height="26.000000000000114" width="189.93750000000009" x="-280.3201824244258" y="627.8664072300187"/>
+              <y:Fill color="#333399" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="92.7578125" x="48.58984375000006" y="1.578125">no changes</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n2::n8">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNode2">
+              <y:Geometry height="26.000000000000114" width="189.93750000000009" x="-280.3201824244258" y="475.18893294501265"/>
+              <y:Fill color="#333399" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="137.296875" x="26.320312500000057" y="1.5781250000000568">&gt; local change(s)</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n2::n9">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
               <y:Geometry height="66.00000000000006" width="114.43750000000011" x="519.6389320261478" y="70.86497428500635"/>
@@ -145,17 +225,17 @@ Staging Area</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n2::n8">
+        <node id="n2::n10">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
-              <y:Geometry height="26.000000000000114" width="276.4375" x="438.6389320261478" y="243.54244857001243"/>
+              <y:Geometry height="26.000000000000114" width="258.4375" x="447.6389320261478" y="243.54244857001243"/>
               <y:Fill color="#800080" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="260.4140625" x="8.01171875" y="1.5781250000000568">last stashed changes - stash@{3}</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="260.4140625" x="-0.98828125" y="1.5781250000000568">last stashed changes - stash@{3}</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n2::n9">
+        <node id="n2::n11">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
               <y:Geometry height="26.000000000000114" width="258.4375" x="447.6389320261478" y="336.0848971400248"/>
@@ -165,7 +245,7 @@ Staging Area</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n2::n10">
+        <node id="n2::n12">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
               <y:Geometry height="26.000000000000114" width="258.4375" x="447.6389320261478" y="428.62734571003716"/>
@@ -175,13 +255,44 @@ Staging Area</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n2::n11">
+        <node id="n2::n13">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
               <y:Geometry height="26.000000000000114" width="258.4375" x="447.6389320261478" y="521.1697942800495"/>
               <y:Fill color="#800080" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="79.3203125" x="89.55859375" y="1.578125">stash@{0}</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n2::n14">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNode2">
+              <y:Geometry height="72.60494857001237" width="403.1875000000001" x="-705.5081381535927" y="219.38733768875863"/>
+              <y:Fill color="#666699" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="41.6875" modelName="internal" modelPosition="l" textColor="#FFFFFF" visible="true" width="102.34375" x="4.0" y="15.458724285006156">Index /
+Staging Area</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n2::n15">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNode2">
+              <y:Geometry height="26.000000000000114" width="209.43750000000003" x="-550.5081381535927" y="242.6898119737648"/>
+              <y:Fill color="#333399" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="148.1171875" x="30.66015625" y="1.5781250000000568">* staged change(s)</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n2::n16">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNode2">
+              <y:Geometry height="26.000000000000114" width="199.4375" x="-545.5081381535927" y="90.01233768875863"/>
+              <y:Fill color="#333399" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="177.3203125" x="11.05859375" y="1.5781250000000568">~1 OR ^ commit - zyx</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -192,14 +303,14 @@ Staging Area</y:NodeLabel>
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="109.66601562500003" width="229.11679687499992" x="-186.33268242442594" y="-270.11601562499993"/>
+              <y:Geometry height="146.3845055350065" width="904.5988932291666" x="-678.5919272160925" y="-418.8225257149935"/>
               <y:Fill color="#CAECFF84" transparent="false"/>
               <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="229.11679687499992" x="0.0" y="0.0">remote enviroment</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="904.5988932291666" x="0.0" y="0.0">someRepo.git</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="22" leftF="22.03964843749992" right="25" rightF="25.139648437499886" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="26" bottomF="25.780989910006497" left="99" leftF="99.33378906249982" right="28" rightF="27.500000000000227" top="11" topF="10.9375"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="80.0" width="100.0" x="-50.0" y="-30.0"/>
@@ -218,11 +329,20 @@ Staging Area</y:NodeLabel>
         <node id="n3::n0">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode2">
-              <y:Geometry height="58.00000000000003" width="151.9375000000001" x="-149.29303398692602" y="-233.44999999999993"/>
+              <y:Geometry height="58.00000000000003" width="189.4375000000001" x="-5.93053398692615" y="-371.2190100899935"/>
               <y:Fill color="#003300" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="132.197265625" x="9.870117187500057" y="12.8671875">master repository
-branch: origin/master</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="132.197265625" x="28.620117187500057" y="19.93359375">branch: origin/master</y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n3::n1">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNode2">
+              <y:Geometry height="58.00000000000003" width="189.4375000000001" x="-564.2581381535927" y="-371.2190100899935"/>
+              <y:Fill color="#003300" transparent="false"/>
+              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#FFFFFF" visible="true" width="159.80078125" x="14.818359375" y="19.93359375">branch: origin/coolFeature</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -230,15 +350,26 @@ branch: origin/master</y:NodeLabel>
     </node>
     <node id="n4">
       <data key="d6">
-        <y:GenericNode configuration="ShinyPlateNode3">
-          <y:Geometry height="73.00000000000006" width="209.4375" x="911.0156249999997" y="453.8348971400247"/>
-          <y:Fill color="#FF9900" transparent="false"/>
-          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="173.7265625" x="17.85546875" y="25.078125000000057">myContribution.patch</y:NodeLabel>
-        </y:GenericNode>
+        <y:ShapeNode>
+          <y:Geometry height="708.2341648097141" width="307.31946601307436" x="405.75696601307345" y="63.789720072313116"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dotted" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="22" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="29.91015625" modelName="internal" modelPosition="b" textColor="#000000" visible="true" width="134.8505859375" x="86.23444003778718" y="674.3240085597141">git stash list</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
       </data>
     </node>
     <node id="n5">
+      <data key="d6">
+        <y:GenericNode configuration="ShinyPlateNode3">
+          <y:Geometry height="73.00000000000006" width="209.4375" x="911.0156249999997" y="453.83489714002474"/>
+          <y:Fill color="#FF9900" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="173.7265625" x="17.85546875" y="25.078125">myContribution.patch</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n6">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNode2">
           <y:Geometry height="44.875" width="210.05130155229563" x="793.208724223852" y="81.42747428500638"/>
@@ -248,10 +379,10 @@ branch: origin/master</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n6">
+    <node id="n7">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="941.10693359375" x="179.34619140624955" y="764.5"/>
+          <y:Geometry height="30.0" width="941.10693359375" x="179.34619140624955" y="814.5"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="r" textColor="#000000" visible="true" width="924.28955078125" x="16.8173828125" y="5.3447265625">Made by Markus Tiede. This work is licensed under the Creative Commons Attribution 3.0 Licence - http://creativecommons.org/licenses/by/3.0</y:NodeLabel>
@@ -259,19 +390,17 @@ branch: origin/master</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <edge id="n2::e0" source="n2::n6" target="n2::n2">
+    <edge id="n2::e0" source="n2::n8" target="n2::n4">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="41.6875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="113.171875" x="2.000000375866904" y="-84.17359334021887">git add &lt;file&gt;
-git add -A</y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n2::e1" source="n2::n0" target="n2::n3">
+    <edge id="n2::e1" source="n2::n0" target="n2::n5">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -281,7 +410,7 @@ git add -A</y:EdgeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n2::e2" source="n2::n2" target="n2::n3">
+    <edge id="n2::e2" source="n2::n4" target="n2::n5">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -292,30 +421,31 @@ git add -A</y:EdgeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n2::e3" source="n2::n2" target="n2::n1">
-      <data key="d9">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n2::e4" source="n2::n2" target="n2::n6">
+    <edge id="n2::e3" source="n2::n4" target="n2::n8">
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="67.70758819580078" y="332.88116455078125"/>
+            <y:Point x="-6.161684036254883" y="411.2596435546875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="171.2265625" x="-186.87200642726742" y="10.134733726262539">git reset HEAD &lt;file&gt;</y:EdgeLabel>
-          <y:Arc height="-44.83062744140625" ratio="-1.1745185852050781" type="fixedRatio"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="171.2265625" x="-50.712769678384774" y="63.981215740084394">git reset HEAD &lt;file&gt;</y:EdgeLabel>
+          <y:Arc height="49.269622802734375" ratio="0.5222600102424622" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="n2::e5" source="n2::n4" target="n2::n5">
+    <edge id="n2::e4" source="n2::n8" target="n2::n7">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="154.5234375" x="1.9999927464726852" y="51.90798014610948">git checkout &lt;file&gt;</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n2::e5" source="n2::n5" target="n2::n4">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -325,54 +455,7 @@ git add -A</y:EdgeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n2::e6" source="n2::n6" target="n2::n5">
-      <data key="d9">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="154.5234375" x="2.0000003758669322" y="51.907964196740295">git checkout &lt;file&gt;</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n2::e7" source="n2::n0" target="n2::n5">
-      <data key="d9">
-        <y:BezierEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-5.70989714002485">
-            <y:Point x="112.53821601307396" y="481.18749999999966"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-        </y:BezierEdge>
-      </data>
-    </edge>
-    <edge id="n2::e8" source="n2::n3" target="n2::n2">
-      <data key="d9">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n2::e9" source="n2::n3" target="n2::n2">
-      <data key="d9">
-        <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="52.70758819580078" y="180.20370483398438"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="60.53125" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="226.1171875" x="-272.00944411927975" y="5.975982320725876">git reset --soft HEAD^
-&gt;&gt; resets last commit
-commit MUST NOT BE public</y:EdgeLabel>
-          <y:Arc height="-59.83062744140625" ratio="-1.5675036907196045" type="fixedRatio"/>
-        </y:ArcEdge>
-      </data>
-    </edge>
-    <edge id="n2::e10" source="n2::n2" target="n2::n8">
+    <edge id="n2::e6" source="n2::n4" target="n2::n10">
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -386,7 +469,7 @@ commit MUST NOT BE public</y:EdgeLabel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="n2::e11" source="n2::n8" target="n2::n2">
+    <edge id="n2::e7" source="n2::n10" target="n2::n4">
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -400,7 +483,7 @@ git stash apply</y:EdgeLabel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="n2::e12" source="n2::n8" target="n2::n9">
+    <edge id="n2::e8" source="n2::n10" target="n2::n11">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -411,7 +494,7 @@ git stash apply</y:EdgeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n2::e13" source="n2::n9" target="n2::n10">
+    <edge id="n2::e9" source="n2::n11" target="n2::n12">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -422,7 +505,7 @@ git stash apply</y:EdgeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n2::e14" source="n2::n10" target="n2::n11">
+    <edge id="n2::e10" source="n2::n12" target="n2::n13">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -433,7 +516,7 @@ git stash apply</y:EdgeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n2::e15" source="n2::n7" target="n2::n8">
+    <edge id="n2::e11" source="n2::n9" target="n2::n10">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -443,7 +526,7 @@ git stash apply</y:EdgeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n2::e16" source="n2::n10" target="n2::n2">
+    <edge id="n2::e12" source="n2::n12" target="n2::n4">
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -456,53 +539,41 @@ git stash apply</y:EdgeLabel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="n2::e17" source="n2::n2" target="n2::n5">
+    <edge id="n2::e13" source="n2::n4" target="n2::n7">
       <data key="d9">
         <y:SplineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="290.7499999999998" y="296.54244857001237"/>
-            <y:Point x="260.74999999999966" y="483.17249999999956"/>
+            <y:Point x="67.5382160130739" y="474.42249999999956"/>
+            <y:Point x="-128.00000000000034" y="519.4224999999996"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
         </y:SplineEdge>
       </data>
     </edge>
-    <edge id="n2::e18" source="n2::n4" target="n2::n6">
-      <data key="d9">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="six_pos" modelPosition="thead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="95.083984375" x="147.80811228720023" y="-108.44560448873136">make change(s)</y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e0" source="n3::n0" target="n2::n0">
+    <edge id="e0" source="n3" target="n2">
       <data key="d9">
         <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-297.4871520996094" y="-131.66433715820312"/>
+          <y:Path sx="450.50860964914943" sy="19.112572326050213" tx="429.6861303567083" ty="-442.83609859865805">
+            <y:Point x="382.8777770996094" y="-255.68228149414062"/>
           </y:Path>
           <y:LineStyle color="#999999" type="line" width="2.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="41.6875" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="71.140625" x="-218.6231538853121" y="145.846748006761">initial: 
-git clone</y:EdgeLabel>
-          <y:Arc height="-141.97650146484375" ratio="-1.5094189643859863" type="fixedRatio"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="76.203125" x="99.72277318648435" y="137.45459712785475"> git clone</y:EdgeLabel>
+          <y:Arc height="71.32888793945312" ratio="0.9003875255584717" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e1" source="n3::n0" target="n2::n4">
+    <edge id="e1" source="n3::n0" target="n2::n7">
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-91.8581771850586" y="207.16392517089844"/>
+            <y:Point x="338.3007507324219" y="257.1246643066406"/>
           </y:Path>
           <y:LineStyle color="#999999" type="line" width="2.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="thead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="58.8984375" x="-267.8786956519068" y="671.3657351527199">git pull</y:EdgeLabel>
-          <y:Arc height="99.67825317382812" ratio="0.4986504018306732" type="fixedRatio"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="ttail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="58.8984375" x="-234.75251348382858" y="908.1111582065812">git pull</y:EdgeLabel>
+          <y:Arc height="401.33148193359375" ratio="1.5729349851608276" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
@@ -510,29 +581,29 @@ git clone</y:EdgeLabel>
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-179.62973022460938" y="-49.23409652709961"/>
+            <y:Point x="89.1167984008789" y="-96.72410583496094"/>
           </y:Path>
           <y:LineStyle color="#999999" type="line" width="2.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.734375" x="48.30264275230857" y="-190.06188926696774">git push</y:EdgeLabel>
-          <y:Arc height="-1.8467057943344116" ratio="-0.01963319629430771" type="fixedRatio"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="stail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.734375" x="2.1851869922544296" y="-32.94718334591391">git push</y:EdgeLabel>
+          <y:Arc height="-2.409811019897461" ratio="-0.01963319629430771" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
     <edge id="e3" source="n3::n0" target="n2::n0">
       <data key="d9">
         <y:ArcEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-106.00634002685547" y="2.258586883544922"/>
+          <y:Path sx="85.30301977637615" sy="29.03627805435724" tx="100.95227113312106" ty="-160.38325667708233">
+            <y:Point x="205.26846313476562" y="-163.38694763183594"/>
           </y:Path>
           <y:LineStyle color="#999999" type="line" width="2.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="ttail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="68.5546875" x="-98.65006501636776" y="213.32009818637354">git fetch</y:EdgeLabel>
-          <y:Arc height="91.69046020507812" ratio="0.9748044013977051" type="fixedRatio"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="stail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="68.5546875" x="8.854289603096788" y="10.088729167818997">git fetch</y:EdgeLabel>
+          <y:Arc height="25.452190399169922" ratio="0.3373964726924896" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e4" source="n2::n8" target="n4">
+    <edge id="e4" source="n2::n10" target="n5">
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -540,12 +611,12 @@ git clone</y:EdgeLabel>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="140.40625" x="200.04973612635195" y="99.63757186102794">git stash show -p</y:EdgeLabel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="140.40625" x="209.0500413021332" y="101.07549910712174">git stash show -p</y:EdgeLabel>
           <y:Arc height="77.97144317626953" ratio="0.6272034049034119" type="fixedRatio"/>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e5" source="n2::n10" target="n4">
+    <edge id="e5" source="n2::n12" target="n5">
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -558,7 +629,7 @@ git clone</y:EdgeLabel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e6" source="n2::n9" target="n5">
+    <edge id="e6" source="n2::n11" target="n6">
       <data key="d9">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -571,7 +642,7 @@ git clone</y:EdgeLabel>
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e7" source="n2::n7" target="n5">
+    <edge id="e7" source="n2::n9" target="n6">
       <data key="d9">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -582,18 +653,197 @@ git clone</y:EdgeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e8" source="n4" target="n2::n6">
+    <edge id="e8" source="n5" target="n2::n8">
       <data key="d9">
         <y:SplineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="938.9999999999993" y="668.3443749999994"/>
-            <y:Point x="383.68749999999966" y="682.0943749999994"/>
+            <y:Point x="931.4999999999993" y="602.0943749999994"/>
+            <y:Point x="393.68749999999966" y="602.0943749999994"/>
             <y:Point x="338.9999999999998" y="449.59437499999956"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="221.046875" x="-479.71362304687545" y="153.14334425806476">git apply &lt;patch-filename&gt;</y:EdgeLabel>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="221.046875" x="-482.08032226562545" y="77.23683105468695">git apply &lt;patch-filename&gt;</y:EdgeLabel>
         </y:SplineEdge>
+      </data>
+    </edge>
+    <edge id="n2::e14" source="n2::n3" target="n2::n0">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n2::e15" source="n2::n8" target="n2::n15">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="225.828125" x="-100.83214963383028" y="-114.6444593277206">git add &lt;file&gt; OR git add -A</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n2::e16" source="n2::n1" target="n2::n16">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n2::e17" source="n2::n15" target="n2::n16">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="230.6796875" x="2.000010039766721" y="-74.7517236306523">git commit -m "my message"</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n2::e18" source="n2::n15" target="n2::n8">
+      <data key="d9">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-345.6668395996094" y="405.6524658203125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="171.2265625" x="-128.75555665744037" y="61.60921873102308">git reset HEAD &lt;file&gt;</y:EdgeLabel>
+          <y:Arc height="-45.192543029785156" ratio="-0.5177901983261108" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="n2::e19" source="n2::n16" target="n2::n15">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n2::e20" source="n2::n16" target="n2::n15">
+      <data key="d9">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-505.6200256347656" y="179.35107421875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.46484375" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="198.3525390625" x="-241.47563089661742" y="9.50919008461375">git reset --soft HEAD^
+&gt;&gt; resets last commit
+commit MUST NOT BE public</y:EdgeLabel>
+          <y:Arc height="-59.830631256103516" ratio="-1.5675036907196045" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n2::n1" target="n3::n1">
+      <data key="d9">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-462.3399963378906" y="-97.21791076660156"/>
+          </y:Path>
+          <y:LineStyle color="#999999" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="stail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="67.734375" x="1.4850797218666116" y="-32.9904708821029">git push</y:EdgeLabel>
+          <y:Arc height="-2.4059996604919434" ratio="-0.01963319629430771" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n3::n1" target="n2::n1">
+      <data key="d9">
+        <y:ArcEdge>
+          <y:Path sx="75.94879082416269" sy="7.589583660006042" tx="0.0" ty="0.0">
+            <y:Point x="-344.12774658203125" y="-82.0097885131836"/>
+          </y:Path>
+          <y:LineStyle color="#999999" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="stail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="68.5546875" x="2.70260990454085" y="10.093032146334622">git fetch</y:EdgeLabel>
+          <y:Arc height="83.42131805419922" ratio="0.685116708278656" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="n2::e21" source="n2::n14" target="n2::n1">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n3::n1" target="n2::n7">
+      <data key="d9">
+        <y:ArcEdge>
+          <y:Path sx="25.686681609847454" sy="-0.222916339993958" tx="-5.39822453577645" ty="0.0">
+            <y:Point x="-869.7042236328125" y="291.4005126953125"/>
+          </y:Path>
+          <y:LineStyle color="#999999" type="line" width="2.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="thead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="58.8984375" x="138.86652003291158" y="908.0987680698624">git pull</y:EdgeLabel>
+          <y:Arc height="-570.4091796875" ratio="-2.2471203804016113" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n2::n1" target="n3">
+      <data key="d9">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-273.5823059082031" y="-65.95175170898438"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="-76.94035339355469" ratio="-0.5636368989944458" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n2::n0" target="n3">
+      <data key="d9">
+        <y:ArcEdge>
+          <y:Path sx="12.41205612234242" sy="14.62362499999989" tx="4.591173366671569" ty="0.0">
+            <y:Point x="-157.08030700683594" y="-31.804210662841797"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="109.3984375" x="-151.567873161997" y="-147.3536822549105">git push --all</y:EdgeLabel>
+          <y:Arc height="111.79376983642578" ratio="0.7446102499961853" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+    <edge id="n2::e22" source="n2::n15" target="n2::n7">
+      <data key="d9">
+        <y:SplineEdge>
+          <y:Path sx="0.0" sy="12.982421875000057" tx="-5.529503913657834" ty="0.0">
+            <y:Point x="-407.95954075341655" y="487.769357386306"/>
+            <y:Point x="-237.73533819037908" y="522.5938989177541"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:SplineEdge>
+      </data>
+    </edge>
+    <edge id="n2::e23" source="n2::n2::n3" target="n2::n5">
+      <data key="d9">
+        <y:ArcEdge>
+          <y:Path sx="99.7272720336914" sy="0.0" tx="0.0" ty="12.982421875000028">
+            <y:Point x="-125.5936279296875" y="145.45045471191406"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" modelName="six_pos" modelPosition="stail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="145.390625" x="66.78038219913208" y="4.905062493300676">git cherry-pick tsr</y:EdgeLabel>
+          <y:Arc height="-62.151268005371094" ratio="-0.5365943312644958" type="fixedRatio"/>
+        </y:ArcEdge>
       </data>
     </edge>
   </graph>
